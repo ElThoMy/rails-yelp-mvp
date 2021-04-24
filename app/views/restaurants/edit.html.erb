@@ -1,0 +1,6 @@
+<div class="container">
+<h1>Edit <%= @restaurant.name %> 👩‍🍳</h1>
+<p><%= link_to "Back to the restaurant", restaurant_path %></p>
+<p><%= link_to "Back to the home page", restaurants_path %></p>
+<%= render "form", restaurant: @restaurant %>
+</div>
